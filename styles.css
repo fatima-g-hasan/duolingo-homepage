@@ -126,5 +126,19 @@ main {
 .lower-section{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 10px;
+  border-bottom: solid 2px rgb(223, 217, 217);
+  border-top: solid 2px rgb(223, 217, 217);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 45px;
+}
+
+.lower-section p {
+  margin: 0 5px;
+  color: rgb(108, 108, 108);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 800;
+  cursor: pointer;
 }
