@@ -1,4 +1,41 @@
-nav{
-  background-color: blue;
-  height: 100px
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  height: 3000px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  border-bottom: solid;
+  border-color: rgb(226, 225, 225);
+  border-width: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
+
+nav img {
+  height: 42px;
+  padding-right: 50px;
+}
+
+nav button {
+  border: none;
+  background-color: white;
+  color: rgb(185, 176, 176);
+  font-family: M PLUS Rounded 1c;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
